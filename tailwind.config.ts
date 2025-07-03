@@ -61,6 +61,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Custom coding theme colors
+				editor: {
+					bg: 'hsl(var(--editor-bg))',
+					lineNumber: 'hsl(var(--editor-line-number))',
+					selection: 'hsl(var(--editor-selection))'
+				},
+				terminal: {
+					green: 'hsl(var(--terminal-green))'
+				},
+				code: {
+					blue: 'hsl(var(--code-blue))',
+					purple: 'hsl(var(--code-purple))',
+					orange: 'hsl(var(--code-orange))'
+				},
+				glass: {
+					bg: 'hsl(var(--glass-bg))'
 				}
 			},
 			borderRadius: {
